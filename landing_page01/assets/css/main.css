@@ -42,6 +42,7 @@ h2 {
   border: none;
   color: var(--tertiary-color);
   cursor: pointer;
+  font-weight: bold;
 }
 
 .cta:hover {
@@ -131,6 +132,10 @@ input::placeholder {
 /* MAIN -------------------------------------------------------- */
 /* BENEFITS -------------------------------------------------------- */
 
+main {
+  line-height: 1.5;
+}
+
 .main_benefits {
   display: flex;
   gap: 2.5rem;
@@ -154,7 +159,6 @@ span[class^="icon-"] {
 .benefits_text {
   font-size: 0.8rem;
   color: #8f9091;
-  line-height: 1.5;
 }
 
 /* PARTNERS -------------------------------------------------------- */
@@ -180,4 +184,43 @@ span[class^="icon-"] {
 
 .main_partners > .partner_content {
   flex: 0 1 auto;
+}
+
+/* TESTIMONIALS -------------------------------------------------------- */
+
+.main_testimonials {
+  margin-top: 5rem;
+  max-width: 40rem;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote footer {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #6d6d6d;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+cite {
+  font-style: normal;
+}
+
+.testimonial_btn {
+  display: block;
+  margin: 0 auto 4rem;
+  background-color: var(--primary-color);
 }
