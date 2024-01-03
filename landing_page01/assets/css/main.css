@@ -156,3 +156,28 @@ span[class^="icon-"] {
   color: #8f9091;
   line-height: 1.5;
 }
+
+/* PARTNERS -------------------------------------------------------- */
+
+.partners_container {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-top: 6rem;
+}
+
+.main_partners {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.partner_content img {
+  display: block;
+  width: 100%;
+}
+
+.main_partners > .partner_content {
+  flex: 0 1 auto;
+}
