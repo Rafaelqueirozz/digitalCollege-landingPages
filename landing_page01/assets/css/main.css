@@ -11,10 +11,6 @@
   margin: 0;
 }
 
-body {
-  margin-bottom: 20rem;
-}
-
 .maxWidth {
   max-width: 40rem;
   margin: auto;
@@ -130,7 +126,7 @@ input::placeholder {
 }
 
 /* MAIN -------------------------------------------------------- */
-/* BENEFITS -------------------------------------------------------- */
+/* BENEFITS ------------------- */
 
 main {
   line-height: 1.5;
@@ -161,7 +157,7 @@ span[class^="icon-"] {
   color: #8f9091;
 }
 
-/* PARTNERS -------------------------------------------------------- */
+/* PARTNERS ------------------- */
 
 .partners_container {
   border-top: 2px solid #ccc;
@@ -186,7 +182,7 @@ span[class^="icon-"] {
   flex: 0 1 auto;
 }
 
-/* TESTIMONIALS -------------------------------------------------------- */
+/* TESTIMONIALS ------------- */
 
 .main_testimonials {
   margin-top: 5rem;
@@ -225,7 +221,7 @@ cite {
   background-color: var(--primary-color);
 }
 
-/* QUESTIONS -------------------------------------------------------- */
+/* QUESTIONS ------------- */
 
 .questionsbg-container {
   background-color: #faf9f8;
@@ -263,4 +259,51 @@ span[class="icon-plus"] {
   font-size: 1.25rem;
   color: inherit;
   vertical-align: middle;
+}
+
+/* FOOTER -------------------------------------------------------- */
+
+.footer_terms {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  max-width: 50rem;
+  margin: 1.25rem auto;
+}
+
+.footer_terms a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: block;
+  font-weight: 500;
+}
+
+.footer_terms a:hover {
+  text-decoration: underline;
+}
+
+.author_bg {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  display: flex;
+  padding: 1rem;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.author_contacts a {
+  display: inline-block;
+  background-color: var(--tertiary-color);
+  padding: 0.3rem 0.6rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.author_contacts a:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
 }
