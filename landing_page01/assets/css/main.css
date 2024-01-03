@@ -224,3 +224,43 @@ cite {
   margin: 0 auto 4rem;
   background-color: var(--primary-color);
 }
+
+/* QUESTIONS -------------------------------------------------------- */
+
+.questionsbg-container {
+  background-color: #faf9f8;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.faq_title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.questions_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.question_title {
+  font-weight: 600;
+}
+
+.questions_maxWidth {
+  max-width: 40rem;
+  margin: auto;
+}
+
+span[class="icon-plus"] {
+  font-size: 1.25rem;
+  color: inherit;
+  vertical-align: middle;
+}
