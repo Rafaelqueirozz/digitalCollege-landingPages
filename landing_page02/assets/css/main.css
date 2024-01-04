@@ -15,10 +15,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  margin-bottom: 100vh;
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -34,7 +30,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
   color: var(--color-white);
   padding: 0.5rem 3rem 0.5rem 1rem;
   position: sticky;
@@ -209,7 +204,8 @@ div.category_cta2 {
   min-height: 60px;
 }
 
-/* ------------------ */
+/* QUESTIONS SECTION --------------------------------------------- */
+
 .questions_bg {
   background-color: var(--secondary-bg-color);
 }
@@ -337,4 +333,26 @@ label[for="unbounce_page"] {
 
 .questions_response .strong {
   font-weight: 400;
+}
+
+/* FOOTER ------------------------------------------------------- */
+
+footer {
+  background-color: var(--header-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footer_logo {
+  width: 68%;
+  margin: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.625rem;
+  color: var(--color-white);
 }
