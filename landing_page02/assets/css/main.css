@@ -3,16 +3,27 @@
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #0077f9;
   --color-white: #ffffff;
+  --primary-textcolor: #115475;
+  --secondary-textcolor: #6a95aa;
 }
 
 * {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
   margin-bottom: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 /* HEADER ------------------------------------------------------ */
@@ -49,4 +60,35 @@ body {
   border: 1px solid var(--primary-bg-color);
   text-transform: uppercase;
   text-align: center;
+}
+
+/* HERO CONTENT --------------------------------------------------- */
+
+.hero_primarybg {
+  background-color: aqua;
+}
+
+.hero_container {
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5rem;
+  margin: auto;
+}
+
+.hero_width {
+  max-width: 85%;
+}
+
+.hero_subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.hero_image_container img {
+  position: relative;
+  height: 29.25rem;
+  width: 22.5rem;
+  bottom: 0;
+  right: 5em;
 }
