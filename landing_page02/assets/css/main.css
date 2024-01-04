@@ -4,6 +4,7 @@
   --secondary-bg-color: #0077f9;
   --color-white: #ffffff;
   --primary-textcolor: #115475;
+  --white-textcolor: #ffffff;
   --secondary-textcolor: #6a95aa;
 }
 
@@ -109,6 +110,42 @@ h1 {
   position: relative;
   height: 29.25rem;
   width: 22.5rem;
-  bottom: 0;
+  bottom: -5px;
   right: 8em;
+}
+
+/* MAIN ----------------------------------------------------------- */
+/* CONVERSION SECTION --------------------------------------------- */
+
+.conversion_bg {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: var(--secondary-bg-color);
+  color: var(--white-textcolor);
+  text-align: center;
+}
+
+.conversion_title {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+.conversion_cta {
+  font-size: 1.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--primary-bg-color);
+  padding: 1rem 2rem;
+  margin: 2rem auto 0.75rem;
+  color: var(--primary-textcolor);
+  transition: box-shadow 0.3s;
+}
+
+.conversion_cta:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.conversion_text {
+  font-weight: 300;
 }
